@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="./images/dawn.jpg" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+   
+    <script>
+        
+        jQuery(function($){
+            var $navbar =$('.header2');
+            $(window).scroll(function(event){
+                var $current =$(this).scrollTop();
+                if($current > 0){
+                    $navbar.addClass('navbar-color');
+                } else{
+                    $navbar.removeClass('navbar-color');
+                }
+            });
+    
+        });
+    
+    
+        </script>
+
+    <title>Class-10</title>
+</head>
+
+<body> 
+   
+    <header>
+        <div class="header2 ">
+         <nav class="container">
+            
+                <div class="text-5xl font-extrabold">
+                    <h4 class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">OUTDOOR <br />ADVENTURE</h4>
+                </div>
+                
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="#event">Event</a></li>
+                    <li><a href="#takeaction">Take Action</a></li>
+                    <li><a href="./tailwind.html">T</a></li>
+                    
+                </ul>
+            
+                
+            </nav>
+        </div>
+            
+        <!-- banner -->
+        <div class="banner mt-8">
+            
+                <h3 class="text-4xl font-bold underline decoration-8 bg-red-800 md:bg-sky-700 lg:bg-green-500 inline hover:bg-sky-700 cursor-no-drop">Explore the colourful world</h3>
+            </br>
+                <span></span></br></br>
+                <h1 class="mt-8 text-2xl lg:text-[105px]" >A WONDERFUL GIFT</h1></br></br></br></br>
+                
+                    <button class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">Learn More</button>
+                  
+                
+            
+        </div>
+    </header>
+
+   
+
+  <!-- UPCOMING EVENTS section -->
+  <section id="event" class="event-main">
+    <div class="container">
+        <h2 class="tracking-widest border-double border-4 border-indigo-600 rounded-lg ">UPCOMING EVENTS </h2>
+        <span></span>
+
+        <div class="event">
+  
+            <div class="event-box">
+                <img class="drop-shadow-md" src="./images/wanderer.jpg" alt="">
+                <h4>EVEREST CAMP TREK  </h4>
+                <p >Some text will be go here.This is a section of writing.I like this section.This is a img of a child. </p>
+                <a  href="#">Learn More</a>
+            </div>
+            <div class="event-box">
+                <img class="event-img-mobile blur-sm" src="./images/woman.jpg" alt="">
+                <h4>WALKING HOLIDAYS</h4>
+                <p>Some text will be go here.This is a section of writing.I like this section.This is a img of a child. </p>
+                <a href="#">Learn More>></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- EXPLORE THE WORLD -->
+ <section class="explore-section">
+    <div class="container">
+        <div class="explore-main">
+            <div class="explore"></div>
+            <div class="explore">
+                <h1>EXPLORE THE WORLD</h1>
+                <span></span>
+                <p>This is anouthe section of image with content.I do it second time and it help me for know abou flex and backgraund image.There are some ruls in backgroun image and flex.Flex is better than float.</p>
+                <a href="">Learn More</a>
+            </div>
+        </div>
+    </div>
+ </section> 
+
+
+ <!-- TOURS & DESTINATION -->
+  <section id="takeaction">
+    <div class="container">
+       <div class="tours-main">
+        <div class="tour">
+            <h3>UPCOMING TOURS & DESTINATION
+            </h3>
+            <span></span>
+            <p>Now I write about tour Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utsunt in culpa qui officia deserunt mollit
+            </p>
+            <a href="#">Learn More >></a>
+        </div>
+        <div class="tour">
+            <img class="small shadow-inner" src="./images/child.jpg" alt="child">
+            <img class="large" src="./images/fisherman.jpg" alt="child">
+        </div>
+        <div class="tour">
+            <img class="large" src="./images/sea.jpg" alt="child">
+            <img class="small" src="./images/fishermannet.jpg" alt="child">
+        </div>
+       </div>
+    </div>
+  </section> 
+
+
+ <!-- Scroll to top back button-->
+
+ 
+
+
+  <footer>
+
+    <div class="foooter-container">
+        <div class="foooter-item">
+            <h3>Address</h3>
+            <ul>
+                <a href="#">
+                    <li>Nator</li>
+                </a>
+                <a href="#">
+                    <li>Dhanmoni</li>
+                </a>
+
+
+                <a href="#">
+                    <li>Borisal</li>
+                </a>
+
+                <li>Rajshah</li>
+                <li>Dhaka</li>
+            </ul>
+        </div>
+        <div class="foooter-item">
+            <h3>Contact</h3>
+            <ul>
+                <li>Phone</li>
+                <li>Teliphobne</li>
+                <li>Email</li>
+                <li>Facebook</li>
+                <li>Twitter</li>
+            </ul>
+        </div>
+        <div class="foooter-item">
+            <h3>Terms & condition</h3>
+            <ul>
+                <li>Rules</li>
+                <li>Privecy</li>
+                <li>Ploicy</li>
+
+            </ul>
+        </div>
+        <div class="foooter-item">
+            <h3>Link to connect</h3>
+            <ul>
+                <li>website</li>
+                <li>facebook</li>
+                <li>youtube</li>
+                <li>Address</li>
+
+            </ul>
+        </div>
+    </div>
+
+    
+    <diV class="footer-end">
+        <a target="_blank" href="https://web.facebook.com/"> <i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+    </diV>
+   
+            <div class="container">
+                
+            <small> © 2024 Super Summer Ltd. All Rights Reserved</small>
+        </div>
+
+    
+  </footer> 
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+  <script src="https://kit.fontawesome.com/115d966034.js" crossorigin="anonymous"></script>
+
+
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+</script>
+
+
+
+
+</body>
+</html>
